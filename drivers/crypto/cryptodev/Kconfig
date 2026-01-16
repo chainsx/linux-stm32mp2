@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: GPL-2.0-only
+config CRYPTO_DEV_CRYPTODEV
+	tristate "cryptodev-linux crypto driver"
+	help
+	  This driver provides support for cryptodev-linux crypto device.
