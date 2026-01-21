@@ -596,4 +596,9 @@ source "drivers/misc/cardreader/Kconfig"
 source "drivers/misc/uacce/Kconfig"
 source "drivers/misc/pvpanic/Kconfig"
 source "drivers/misc/mchp_pci1xxxx/Kconfig"
+
+source "drivers/misc/tttech-tsn/stm32-deip/Kconfig"
+source "drivers/misc/tttech-tsn/edge-lkm/Kconfig"
+source "drivers/misc/tttech-tsn/acm/Kconfig"
+
 endmenu

@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: GPL-2.0-only
+config TTTECH_TSN_NGN_ACM
+	tristate "ngn acm driver"
+	help
+	  This driver provides support for TTTech ngn acm device.

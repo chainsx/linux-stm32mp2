@@ -68,3 +68,7 @@ obj-$(CONFIG_TMR_INJECT)	+= xilinx_tmr_inject.o
 obj-$(CONFIG_TPS6594_ESM)	+= tps6594-esm.o
 obj-$(CONFIG_TPS6594_PFSM)	+= tps6594-pfsm.o
 obj-$(CONFIG_STM32_OMM)		+= stm32_omm.o
+
+obj-$(CONFIG_TTTECH_TSN_NGN_ACM)	+= tttech-tsn/acm/
+obj-$(CONFIG_TTTECH_TSN_EDGEX_PFM_LKM)	+= tttech-tsn/edge-lkm/
+obj-$(CONFIG_TTTECH_TSN_STM32_DEIP)	+= tttech-tsn/stm32-deip/
